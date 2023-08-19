@@ -1,3 +1,4 @@
+//Cho số nguyên dương n. Kiểm tra xem n có phải là số nguyên tố hay không
 #include<stdio.h>
 #include<conio.h>
 
