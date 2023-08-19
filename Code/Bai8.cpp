@@ -1,8 +1,9 @@
+//Viết chương trình nhập 1 số nguyên có 3 chữ số.  Hãy in ra cách đọc của số nguyên này
 #include<stdio.h>
 #include<conio.h>
 
 int main(){
-    int So;  // Khai b�o
+    int So;  // Khai báo
     printf("Nhap vao so = ");
     scanf("%d", &So);
     if (So < 100 || So > 999){
@@ -12,7 +13,7 @@ int main(){
     }
     else  // H?p l?
     {
-        // X? l�
+        // X? lý
         // 123
         int donvi = So % 10;
         So /= 10;  // 12
