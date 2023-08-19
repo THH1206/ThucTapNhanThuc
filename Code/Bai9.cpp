@@ -1,3 +1,4 @@
+//Viết hàm tìm giá trị lớn nhất trong mảng 1 chiều các số thực
 #include<stdio.h>
 #include<conio.h>
 #define MAX 100
