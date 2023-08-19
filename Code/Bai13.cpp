@@ -1,3 +1,4 @@
+//Đếm số nguyên tố trong mảng
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
