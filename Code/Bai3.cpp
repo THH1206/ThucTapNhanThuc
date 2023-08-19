@@ -1,3 +1,4 @@
+//Tính S(n) = 1 + ½ + 1/3 + … + 1/n
 #include<stdio.h>
 #include<conio.h>
 
@@ -19,7 +20,7 @@ int main()
 
     while(i <= n)
     {
-        S = S + 1.0 / i;  // ph?i nh? l� 1.0 / i
+        S = S + 1.0 / i;  // ph?i nh? là 1.0 / i
         i++;
     }
     printf("i = %d", i);
