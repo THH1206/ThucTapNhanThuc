@@ -1,3 +1,4 @@
+//Hãy kiểm tra số nguyên dương n có toàn chữ số chẵn hay không
 #include<stdio.h>
 #include<conio.h>
 
