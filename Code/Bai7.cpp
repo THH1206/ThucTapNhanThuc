@@ -1,8 +1,9 @@
+//Viết chương trình nhập 1 số nguyên có 2 chữ số.  Hãy in ra cách đọc của số nguyên này
 #include<stdio.h>
 #include<conio.h>
 
 int main(){
-    int So;  // Khai b�o
+    int So;  // Khai báo
     printf("Nhap vao so = ");
         scanf_s("%d", &So);
     if (So < 10 || So > 99){
@@ -12,7 +13,7 @@ int main(){
     }
     else  // H?p l?
     {  
-        // X? l�
+        // X? lý
         // 15 --> Muoi Lam
         int donvi = So % 10;
         int chuc = So / 10;
