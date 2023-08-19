@@ -1,3 +1,4 @@
+//Liệt kê tất cả các “ước số lẻ” của số nguyên dương n
 #include<stdio.h>
 #include<conio.h>
 
