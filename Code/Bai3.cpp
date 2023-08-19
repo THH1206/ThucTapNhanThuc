@@ -1,4 +1,5 @@
 //Tính S(n) = 1 + ½ + 1/3 + … + 1/n
+
 #include<stdio.h>
 #include<conio.h>
 
