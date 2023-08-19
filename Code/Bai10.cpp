@@ -1,3 +1,4 @@
+//Sắp xếp mảng tăng dần
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
