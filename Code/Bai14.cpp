@@ -1,3 +1,4 @@
+//Cho số nguyên dương n. Tính tổng các ước số nhỏ hơn chính nó
 #include<stdio.h>
 #include<conio.h>
 
