@@ -10,9 +10,7 @@ void nhap (int a[], int &n)
         printf("\nNhap so phan tu: ");
         scanf("%d", &n);
         if(n <= 0 || n > MAX)
-        {
             printf("\nSo phan tu khong hop le. Xin kiem tra lai !");
-        }
     }while(n <= 0 || n > MAX);
     for(int i = 0; i < n; i++)
     {
@@ -23,24 +21,19 @@ void nhap (int a[], int &n)
 void xuat(int a[], int n)
 {
     for(int i = 0; i < n; i++)
-    {
         printf("%4d", a[i]);
-    }
 }
 int TinhTong(int a[], int n)
 {
     int tong = 0;
     for(int i = 0; i < n; i++)
-    {
         tong += a[i];
-    }
     return tong;
 }
 int main()
 {
     int n;
     int a[MAX];
-
     nhap(a, n);
     xuat(a, n);
     int tong = TinhTong(a, n);
