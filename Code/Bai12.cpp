@@ -3,7 +3,6 @@
 #include<conio.h>
 #include<math.h>
 #define MAX 100
-
 void nhap (int a[], int &n)
 {
     do
@@ -21,7 +20,6 @@ void nhap (int a[], int &n)
         scanf("%d", &a[i]);
     }
 }
-
 void xuat(int a[], int n)
 {
     for(int i = 0; i < n; i++)
@@ -29,7 +27,6 @@ void xuat(int a[], int n)
         printf("%4d", a[i]);
     }
 }
-
 int TinhTong(int a[], int n)
 {
     int tong = 0;
@@ -48,7 +45,6 @@ int main()
     xuat(a, n);
     int tong = TinhTong(a, n);
     printf("\nTong cac phan tu trong mang la: %d", tong);
-
     getch();
     return 0;
 }
